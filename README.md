@@ -1,39 +1,66 @@
 # MEDICARE-PROJECT
-This project showcases a full-cycle data analysis workflow aimed at solving real operational problems for a healthcare provider. From raw data to interactive dashboards, the goal was to uncover insights that improve patient outcomes, streamline operations, and guide hospital strategy.
-<!-- ────────────────────────────────────────── -->
-<!-- PERSONAL BRAND HEADER -->
-<!-- Tiny LinkedIn icon + your handle, left-aligned -->
-[<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/linkedin.svg" width="16">](https://www.linkedin.com/in/ruth-chika/  ** Ruth Chika **
+This project investigates the key performance indicators of Medicare, its challenges and inefficiencies, with focus on using data analysis to optimize the overall hospital operations, improve the outcomes and increase overall efficiency. The analysis reveals high patient dissatisfaction in some department due to the high wait times,
+
+
+Key insights derived from analyzing the revenue generated, profit margin, wait times and patient satisfaction rates provide a comprehensive view of the Medicare data set and trends.
+
+Recommendations are provided to enhance Medicare General Hospital functionality and improve their overall client experience.
 
 # Project Background 
 
 MediCare General Hospital is a leading healthcare provider facing challenges such as high treatment costs, patient dissatisfaction, long wait times, and fluctuating revenue. This project aims to leverage data analysis to optimize hospital operations, improve patient outcomes, and increase overall efficiency.
 
-##  Insights & Recommendations
+## 📌 Project Insights & Recommendations
 
-### 1. Patient Satisfaction
-- **Insight:** High-cost CPT/DRG codes and chronic-condition cohorts significantly impact patient satisfaction and overall experience.
-- **Recommendation:** Prioritize monitoring these areas and address pain points revealed in CAHPS surveys to reduce voluntary disenrollment.
+### 1. Patient Satisfaction Rating:
+· Cardiology department has the lowest patient satisfaction score of 73.65%
+· Orthopedics department has the highest patient satisfaction score of 76.30%
+### 2. Treatment Cost By Insurance Type:
+· Private clients and the uninsured ones have the highest treatment cost at 26% each while clients on Medicare and Medicaid have lower treatment cost.
+### 3. Revenue and profit margin
+- While cardiology is the lowest revenue generating department, it has a high profit margin while Emergency being the highest revenue generating department has a relatively low profit margin.
+### 4. Revenue Generation by Departments:
+- Emergency department generated the highest revenue of £3,566,297 while cardiology generated the lowest revenue at £2,982,972
 
-### 2. Treatment Costs
-- **Insight:** Certain hospitals and practitioners show elevated readmission and denial rates, indicating potential inefficiencies.
-- **Recommendation:** Investigate cost outliers to guide budget realignment, provider performance reviews, and contract negotiations.
+## ✅ Recommendations
 
-### 3. Readmission Rates
-- **Insight:** Preventable readmissions suggest gaps in discharge planning and follow-up care.
-- **Recommendation:** Improve post-discharge protocols to enhance patient outcomes and reduce unnecessary costs.
+Based on the analysis and insights derived from Medicare General Hospital’s performance data, the following strategic actions are recommended to improve operational efficiency, profitability, and patient experience:
 
-### 4. Doctor Performance
-- **Insight:** Survey feedback often correlates with low provider scores and patient churn.
-- **Recommendation:** Use CAHPS pain-point data to inform targeted coaching and improve retention.
+---
 
-### 5. Revenue Streams
-- **Insight:** Variability in revenue generation across treatment types and insurance plans.
-- **Recommendation:** Analyze revenue flows to identify scalable service lines and reduce financial leakage.
+### 1. 💰 Cost Control
 
-### 6. Wait Times
-- **Insight:** Long patient wait times negatively affect satisfaction and operational efficiency.
-- **Recommendation:** Implement process improvements to streamline intake and scheduling across facilities.
+- **Streamline operations:** Reduce unnecessary expenses and optimize staffing to lower costs.
+- **Expand high-margin departments:** Oncology shows high profit margins despite low revenue inflow. Stakeholders should invest in better equipment and marketing to boost patient volume and profitability.
+- **Restructure low-margin departments:** Identify revenue-generating units with low margins and implement cost-reduction strategies without compromising care quality.
+
+---
+
+### 2. 😊 Optimal Patient Satisfaction
+
+- **Address wait time delays:** Prolonged wait times significantly impact patient experience. Workflow automation and improved scheduling are key to reducing delays.
+- **Improve discharge and follow-up care:** High readmission rates suggest gaps in post-treatment planning. Strengthen these processes to enhance outcomes and satisfaction.
+
+---
+
+
+· To enhance overall patient satisfaction and strengthen service quality, we recommend that stakeholders prioritize targeted interventions to address these areas.
+
+· Improving operational efficiency and post-discharge care could lead to better outcomes and a more positive patient experience
+
+
+###3. Treatment Cost:
+
+· Explore cost-reduction strategies for some department like |Therapy while maintaining treatment quality to improve accessibility.
+
+· Insurance types like Medicare and Medicaid though have lower cost compared to Private insurance, is still considerably high. Stakeholders are advised to look for ways to mitigate this high cost.
+
+
+###4. Data-Driven Decision Making:
+
+· The hospital dataset should be dated in order to ensure precise accurate comparison
+
+· Continuously analyze the hospital dataset to identify emerging challenges and optimize accordingly.
 
 
 <mark>An interactive Power BI dashboard can be downloaded <a href=" DASHBOARD-LINK ">**here**</a>.</mark> 
@@ -76,17 +103,21 @@ This cleaned dataset served as the foundation for building dashboards, and healt
 
 ## Executive Summary 
 
-### Overview of Findings
-| Metric | Baseline | Opportunity | Potential Savings |
-|--------|----------|-------------|-------------------|
-| 30-day readmission rate | **14.9 %** | ↓ 1.7 pp | \$ XX M |
-| Avoidable ED visits | **5.2 M/yr** | ↓ 10 % | \$ XX M |
-| Chronic Kidney Disease cost per member | \$ X,XXX | ↓ 6 % | \$ XX M |
-| Voluntary disenrolment | **2.1 %** | ↓ 0.5 pp | ↳ 24 000 members retained |
+### 📊 Overview of Findings
 
-> **Key Insight #1 —** Of 1.3 M beneficiaries with ≥4 chronic conditions, 8 % account for 33 % of total spend. 
-> **Key Insight #2 —** 17 hospitals exceed CMS expected readmissions by >25 %. 
-> **Key Insight #3 —** CAHPS Question Q12 (“Got Needed Specialist Care”) correlates strongest with churn ( r = 0.62 ). 
+A detailed analysis of Medicare General Hospital's performance metrics highlights key inefficiencies and opportunities for operational improvement.
+
+| **Metric**                        | **Baseline**                | **Opportunity**                            | **Potential Impact**                        |
+|----------------------------------|-----------------------------|--------------------------------------------|---------------------------------------------|
+| Cardiology satisfaction score    | **73.65%**                  | ↑ 5 pp improvement                         | Enhanced patient retention                  |
+| Emergency dept. profit margin    | **Low (despite high revenue)** | ↑ via cost restructuring             | Increased yield from top revenue source     |
+| Oncology dept. revenue           | **Low revenue, high margin**| ↑ via investment in equipment & marketing  | Scaled profitability                        |
+| Treatment cost (Private)         | **26%**                     | ↓ through cost-control strategies           | Improved access & fairness                  |
+| Wait times                       | **Long (minutes/hrs)**      | ↓ via operational fixes                     | Better patient experience & throughput      |
+| Readmission rate                 | **14.9%**                   | ↓ through improved discharge planning       | Lower costs, better outcomes                |
+| Voluntary disenrollment          | **2.1%**                    | ↓ by addressing CAHPS pain-points           | ↳ 24,000 members retained                   |
+
+> 🧠 These findings pave the way for targeted interventions to enhance satisfaction, increase efficiency, and scale profitability across departments.
 
 ### Recommendations
 1. Launch **High-Risk Case Management** for CKD & CHF cohorts — projected ROI 5.3 ×. 
@@ -99,12 +130,11 @@ This cleaned dataset served as the foundation for building dashboards, and healt
 ## Tools & Tech 
 | Layer | Stack |
 |-------|-------|
-| Ingestion | Azure Data Factory ⟶ Azure Blob Storage |
-| Processing | SQL Server 2022 · dbt Core |
+| Ingestion | Microsoft excel |
+| Processing | SQL |
 | Analysis | Python (pandas, scikit-learn) · DAX |
 | Visualisation | Power BI Service |
 | Version Control | Git · GitHub Projects |
 
 ---
 
-## Repository Structure
