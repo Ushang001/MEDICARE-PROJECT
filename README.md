@@ -129,14 +129,12 @@ A detailed analysis of Medicare General Hospital's performance metrics highlight
 
 ---
 
-## Tools & Tech 
-| Layer | Stack |
-|-------|-------|
-| Ingestion | Microsoft excel |
-| Processing | SQL |
-| Analysis | Python (pandas, scikit-learn) · DAX |
-| Visualisation | Power BI Service |
-| Version Control | Git · GitHub Projects |
+## Tools 
+Excel
+power Bi
+SQL
+python
 
----
+#DASHBOARD ![MEDICARE DASHBOARD](https://github.com/user-attachments/assets/9174b0e6-9b40-4929-90d2-fe44f15984a8)
+
 
