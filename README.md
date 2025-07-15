@@ -66,7 +66,7 @@ Based on the analysis and insights derived from Medicare General Hospital’s pe
 
 
 <mark>An interactive Power BI dashboard can be downloaded <a href=" DASHBOARD-LINK ">**here**</a>.</mark> 
-<mark>SQL notebooks for data quality checks live <a href=" QC-SQL-LINK ">**here**</a>.</mark> 
+<mark>SQL notebooks for data quality checks live <a href=" [QC-SQL-LINK](https://github.com/Ushang001/MEDICARE-PROJECT/blob/main/medicare_data%20SQL%20(2).sql) ">**here**</a>.</mark> 
 <mark>ETL scripts used to stage & transform raw CMS files are <a href=" ETL-LINK ">**here**</a>.</mark> 
 <mark>Targeted SQL answering business questions is <a href=" BIZSQL-LINK ">**here**</a>.</mark>
 
@@ -129,11 +129,14 @@ A detailed analysis of Medicare General Hospital's performance metrics highlight
 
 ---
 
-## Tools 
-Excel
-power Bi
-SQL
-python
+# Tools 
+##Excel
+
+##power Bi
+
+##SQL
+
+##python
 
 #DASHBOARD ![MEDICARE DASHBOARD](https://github.com/user-attachments/assets/9174b0e6-9b40-4929-90d2-fe44f15984a8)
 
