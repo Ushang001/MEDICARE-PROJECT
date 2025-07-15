@@ -44,23 +44,25 @@ Based on the analysis and insights derived from Medicare General Hospital’s pe
 ---
 
 
-· To enhance overall patient satisfaction and strengthen service quality, we recommend that stakeholders prioritize targeted interventions to address these areas.
+### 2. 😊 Optimal Patient Satisfaction
 
-· Improving operational efficiency and post-discharge care could lead to better outcomes and a more positive patient experience
+- To enhance overall patient satisfaction and strengthen service quality, stakeholders should prioritize targeted interventions—particularly in departments showing low satisfaction and high wait times.
+- Improving operational efficiency and post-discharge care can lead to better health outcomes and a more positive patient experience.
 
+---
 
-###3. Treatment Cost:
+### 3. 💰 Treatment Cost
 
-· Explore cost-reduction strategies for some department like |Therapy while maintaining treatment quality to improve accessibility.
+- Explore cost-reduction strategies for departments like Therapy while maintaining treatment quality to ensure services remain accessible to all patients.
+- Although Medicare and Medicaid clients incur lower treatment costs than private-insured patients, the absolute figures remain high. Stakeholders are encouraged to evaluate pricing models and seek ways to mitigate financial burden on these groups.
 
-· Insurance types like Medicare and Medicaid though have lower cost compared to Private insurance, is still considerably high. Stakeholders are advised to look for ways to mitigate this high cost.
+---
 
+### 4. 📊 Data-Driven Decision Making
 
-###4. Data-Driven Decision Making:
+- Ensure hospital datasets are time-stamped and consistently updated to allow accurate comparisons and performance tracking.
+- Continuously analyze the data to uncover emerging challenges, measure the impact of interventions, and guide strategic decision-making.
 
-· The hospital dataset should be dated in order to ensure precise accurate comparison
-
-· Continuously analyze the hospital dataset to identify emerging challenges and optimize accordingly.
 
 
 <mark>An interactive Power BI dashboard can be downloaded <a href=" DASHBOARD-LINK ">**here**</a>.</mark> 
