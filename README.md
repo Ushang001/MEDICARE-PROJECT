@@ -130,13 +130,13 @@ A detailed analysis of Medicare General Hospital's performance metrics highlight
 ---
 
 # Tools 
-##Excel
+**Excel**
 
-##power Bi
+**power Bi**
 
-##SQL
+**SQL**
 
-##python
+**python**
 
 #DASHBOARD ![MEDICARE DASHBOARD](https://github.com/user-attachments/assets/9174b0e6-9b40-4929-90d2-fe44f15984a8)
 
