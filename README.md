@@ -104,15 +104,7 @@ Based on the analysis and insights derived from Medicare General Hospital’s pe
 - Ensure hospital datasets are time-stamped and consistently updated to allow accurate comparisons and performance tracking.
 - Continuously analyze the data to uncover emerging challenges, measure the impact of interventions, and guide strategic decision-making.
 
-
-
-<mark>An interactive Power BI dashboard can be downloaded <a href=" DASHBOARD-LINK ">**here**</a>.</mark> 
-<mark>SQL notebooks for data quality checks live <a href=" [QC-SQL-LINK](https://github.com/Ushang001/MEDICARE-PROJECT/blob/main/medicare_data%20SQL%20(2).sql) ">**here**</a>.</mark> 
-<mark>ETL scripts used to stage & transform raw CMS files are <a href=" ETL-LINK ">**here**</a>.</mark> 
-<mark>Targeted SQL answering business questions is <a href=" BIZSQL-LINK ">**here**</a>.</mark>
-
 ---
-
 
 ## Executive Summary 
 
@@ -136,6 +128,17 @@ A detailed analysis of Medicare General Hospital's performance metrics highlight
 
 #DASHBOARD ![MEDICARE DASHBOARD](https://github.com/user-attachments/assets/9174b0e6-9b40-4929-90d2-fe44f15984a8)
 
-#SCREENSHORTS
+#EXCEL DASHBOARD ![EXCEL DASHBOARD](https://github.com/user-attachments/assets/d5016b12-0383-49af-82a2-2ee9e9d5dcd7)
+
+#PIVOT TABLES ![PIVOT TABLESS](https://github.com/user-attachments/assets/7f7b8002-8f35-4f98-8103-0c74b03e5150)
+
+#EXCEL FORMULAS ![EXPLORATORY ANALYSIS](https://github.com/user-attachments/assets/e542e0c7-8ddb-48b5-bd9b-11ed478f2ec9)
+
+#CLEANED DATA ![CLEANED DATA](https://github.com/user-attachments/assets/3ca23881-6305-4893-b895-1d5ab3baa570)
+
+
+
+
+
 
 
