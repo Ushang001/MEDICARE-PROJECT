@@ -10,6 +10,47 @@ Recommendations are provided to enhance Medicare General Hospital functionality 
 
 MediCare General Hospital is a leading healthcare provider facing challenges such as high treatment costs, patient dissatisfaction, long wait times, and fluctuating revenue. This project aims to leverage data analysis to optimize hospital operations, improve patient outcomes, and increase overall efficiency.
 
+## 🛠️ Tools Used
+
+| Tool       | Logo                                                                 |
+|------------|----------------------------------------------------------------------|
+| **Excel**  | <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013_logo.svg" width="40"/> |
+| **Power BI** | <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="40"/> |
+| **SQL**    | <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" width="40"/> |
+| **Python** | <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="40"/> |
+
+
+## Data Structure & Initial Checks
+
+This analysis is based on a single Medicare claims dataset containing **1,000,000+ records** and **16 fields** related to patient demographics, healthcare utilisation, provider details, and cost metrics.
+
+| Column Name | Description |
+|-------------|-------------|
+| `patient_id` | Unique identifier for each patient |
+| `age` | Age of the patient |
+| `gender` | Gender of the patient |
+| `doctor name` | name of doctor responsible for care |
+| `department` |hospital department |
+| `insurance type` | Type of insurance coverage used by patient |
+| `treatment type` | type of medical treatment administered |
+| `data issue` | notes any discreppancies or errors in the patient data record |
+| `patient satisfaction score` | numerical score reflecting patient feedback |
+| `average treatment cost` | average monetary cost of the treatment provided |
+| `readmission rate` | frequency at which patients are readmitted within 30 days after discharge |
+| `average wait time(min)` | wait time in minutes before treatment or consultation |
+| `average wait time(hrs)` | wait time in hours before treatment or consultation |
+| `staff rating` | rating of hospital staff based on performance |
+| `revenue generated` | total amount of revenue earned from patients treatment and services |
+| `profit` | net profit from the patient case after expenses |
+| `profit margin` | profit expressed as a percentage of revenue |
+
+Before proceeding with analysis, initial quality checks were conducted:
+- Checked for missing values, duplicates, and outliers.
+- Validated date formats and age boundaries.
+- Ensured categorical fields (e.g. gender) had consistent encodings.
+
+This cleaned dataset served as the foundation for building dashboards, and healthcare performance analysis.
+
 ## 📌 Project Insights & Recommendations
 
 ### 1. Patient Satisfaction Rating:
@@ -72,36 +113,6 @@ Based on the analysis and insights derived from Medicare General Hospital’s pe
 
 ---
 
-## Data Structure & Initial Checks
-
-This analysis is based on a single Medicare claims dataset containing **1,000,000+ records** and **16 fields** related to patient demographics, healthcare utilisation, provider details, and cost metrics.
-
-| Column Name | Description |
-|-------------|-------------|
-| `patient_id` | Unique identifier for each patient |
-| `age` | Age of the patient |
-| `gender` | Gender of the patient |
-| `doctor name` | name of doctor responsible for care |
-| `department` |hospital department |
-| `insurance type` | Type of insurance coverage used by patient |
-| `treatment type` | type of medical treatment administered |
-| `data issue` | notes any discreppancies or errors in the patient data record |
-| `patient satisfaction score` | numerical score reflecting patient feedback |
-| `average treatment cost` | average monetary cost of the treatment provided |
-| `readmission rate` | frequency at which patients are readmitted within 30 days after discharge |
-| `average wait time(min)` | wait time in minutes before treatment or consultation |
-| `average wait time(hrs)` | wait time in hours before treatment or consultation |
-| `staff rating` | rating of hospital staff based on performance |
-| `revenue generated` | total amount of revenue earned from patients treatment and services |
-| `profit` | net profit from the patient case after expenses |
-| `profit margin` | profit expressed as a percentage of revenue |
-
-Before proceeding with analysis, initial quality checks were conducted:
-- Checked for missing values, duplicates, and outliers.
-- Validated date formats and age boundaries.
-- Ensured categorical fields (e.g. gender) had consistent encodings.
-
-This cleaned dataset served as the foundation for building dashboards, and healthcare performance analysis.
 
 ## Executive Summary 
 
@@ -121,23 +132,10 @@ A detailed analysis of Medicare General Hospital's performance metrics highlight
 
 > 🧠 These findings pave the way for targeted interventions to enhance satisfaction, increase efficiency, and scale profitability across departments.
 
-### Recommendations
-1. Launch **High-Risk Case Management** for CKD & CHF cohorts — projected ROI 5.3 ×. 
-2. Create **Readmission Reduction Playbook** and share with outlier hospitals. 
-3. Incentivise providers to schedule post-discharge follow-ups within 7 days. 
-4. Improve specialist-referral workflows inside member portal; A/B test changes.
-
 ---
 
-# Tools 
-**Excel**
-
-**power Bi**
-
-**SQL**
-
-**python**
-
 #DASHBOARD ![MEDICARE DASHBOARD](https://github.com/user-attachments/assets/9174b0e6-9b40-4929-90d2-fe44f15984a8)
+
+#SCREENSHORTS
 
 
